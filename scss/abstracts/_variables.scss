@@ -61,6 +61,13 @@ $max-width: 1180px !default;
 
 
 
+// button link gradient colors
+$btn-color: (
+  top: rgb(114, 114, 114),
+  bottom: rgb(91, 91, 91),
+  box-shadow: rgb(115, 115, 115),
+  text-shadow: rgb(67, 67, 67)
+);
 
 
 /// Breakpoints map

@@ -6,4 +6,10 @@
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 10px;
+  background: linear-gradient(btn-color(top), btn-color(bottom));
+  border-radius: 0;
+  box-shadow: 1px 1px 1px btn-color(box-shadow);
+  text-shadow: 1px 1px 1px btn-color(text-shadow);
+  color: #fff;
+  font-size: 1.2rem;
 }
