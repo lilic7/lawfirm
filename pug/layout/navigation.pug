@@ -1,0 +1,20 @@
+- var menuItems = ["home", "about", "practices", "our lawyers", "news", "contact"]
+- var logoSmall = "img/logo-small.png"
+- var logo = "img/logo.png"
+
+nav.navbar.navbar-default
+    .navbar-header
+        a.navbar-brand(href="#")
+            img.visible-xs.hidden-sm(src=logoSmall alt="Logo")
+            img.hidden-xs.visible-sm(src=logo alt="Logo")
+        button.navbar-toggle(type="button" data-toggle="collapse" data-target="#nav-content")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+
+    .collapse.navbar-collapse#nav-content
+        ul.nav.navbar-nav.navbar-right
+            each it in menuItems
+                li
+                    a(href="#")= it
