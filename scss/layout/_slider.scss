@@ -1,5 +1,6 @@
 .slider{
-
+  @include margin-bottom;
+  font-family: $title-font;
   color: $slider-text-color;
   border-radius: 3px;
   border: 2px solid #fff;

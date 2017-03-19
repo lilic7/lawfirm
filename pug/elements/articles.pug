@@ -1,0 +1,10 @@
+- var articles = [{title: "Our lawyers", img: "img/meeting.jpg", text: "Our website templates are created with inspiration, checked for quality  and originality."}, {title: "Get to know us more", img: "img/handshake.jpg", text: "Just browse through all our Free Website Templates and ﬁnd what you’re looking for."}, {title: "What we offer", img: "img/smile.jpg", text: "Join the discussion on our forum and meet other people in the community."}, {title: "Get in touch with us", img: "img/family-small.jpg", text: "And we love the challenge of doing something different and something special."}]
+
+.row
+    each article in articles
+        article.col-xs-12
+            .img-container
+                img(src=article.img)
+            h3= article.title
+            p=article.text
+            a.btn(href="#") read more

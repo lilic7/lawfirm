@@ -8,7 +8,9 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$title-font: 'Times New Roman', sans-serif;
+
+$text-font-stack: Arial, 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
 
 /// Code (monospace) font family
 /// @type List
@@ -39,9 +41,9 @@ $mid-grey: rgb(153, 153, 153) !default;
 $dark-grey: rgb(68, 68, 68) !default;
 
 
-$header-color: rgb(87, 97, 78) !default;
+$base-color: rgb(87, 97, 78) !default;
 
-$footer-color: rgb(78, 89, 68) !default;
+$second-color: rgb(78, 89, 68) !default;
 
 $background-color: rgb(217, 217, 217) !default;
 
@@ -49,7 +51,7 @@ $main-nav-color: rgb(184, 198, 172) !default;
 
 $main-nav-active-color: rgb(255, 255, 255) !default;
 
-$slider-text-color: $footer-color;
+$slider-text-color: $second-color;
 
 $main-content-color: rgb(112, 127, 98) !default;
 

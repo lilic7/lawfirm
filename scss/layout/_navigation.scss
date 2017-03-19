@@ -1,6 +1,6 @@
 .header{
   min-height: 8rem;
-  background: $header-color;
+  background: $base-color;
 
   .navbar{
     min-height: 5rem;
@@ -25,14 +25,14 @@
           margin-top: 2rem;
 
           &:hover, &:active, &:focus{
-            background: $footer-color;
+            background: $second-color;
             border-color: $background-color;
           }
         }
       }
 
     .navbar-collapse{
-      background: $header-color;
+      background: $base-color;
     }
 
     .navbar-nav > li > a{

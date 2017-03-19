@@ -1,0 +1,43 @@
+article{
+  font-size: 1.4rem;
+
+  h3{
+    font-family: $text-font-stack !important;
+    font-weight: bold;
+  }
+
+  .img-container {
+    padding: 5px;
+    max-width: 350px;
+    background-color: #fff;
+    position: relative;
+
+    &:before, &:after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 12px;
+      left: 10px;
+      width: 50%;
+      top: 80%;
+      max-width: 300px;
+      background: #777;
+      box-shadow: 0 15px 10px #777;
+      transform: rotate(-3deg);
+    }
+
+    &:after {
+      transform: rotate(3deg);
+      right: 10px;
+      left: auto;
+    }
+
+    img {
+      width: 100%;
+      max-width: 340px;
+      box-shadow: 1px 1px 2px 2px #aaa;
+    }
+  }
+
+
+}

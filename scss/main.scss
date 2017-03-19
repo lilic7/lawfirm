@@ -21,10 +21,13 @@
 'layout/footer';
 
 // 5. Components
-@import 'components/button';
+@import 'components/button',
+'components/hr',
+'components/article';
 
 // 6. Page-specific styles
-@import 'pages/home';
+@import 'pages/home',
+'pages/index';
 
 // 7. Themes
 @import 'themes/default';

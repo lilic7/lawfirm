@@ -3,5 +3,15 @@
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 1.6rem / 1.5 $text-font-stack;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $title-font;
+  color: $base-color;
+}
+
+a {
+  color: $text-color;
+  text-decoration: underline;
 }
