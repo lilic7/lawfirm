@@ -1,6 +1,12 @@
--var social = ["facebook", "tweeter", "googleplus", "pinterest"]
+-var social = ["facebook", "tweeter", "gplus", "pinterest"]
 
 .footer
     .container
-        each site in social
-            a(class=site href="#")=site
+        .row
+            .social.col-xs-12
+                each site in social
+                    a(class=site href="#")=site
+
+            p.col-xs-12 &copy; COPYRIGHT 2023 MANES WINCHESTER.
+                br
+                | ALL RIGHTS RESERVED.

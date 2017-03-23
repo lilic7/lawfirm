@@ -13,11 +13,19 @@
       .navbar-header{
         width: 100%;
         min-height: 7.7rem;
-        .navbar-brand{
-          display: block;
 
-          img{
-            width: 100%;
+        .navbar-brand{
+          display:  block;
+          content: "Manes Winchester";
+          text-indent: -99999px;
+          @include logo('small');
+          margin-top: 1.3rem;
+          margin-left: 1.3rem;
+        }
+
+        @media screen and (min-width: 500px){
+          .navbar-brand{
+            @include logo('normal');
           }
         }
 
@@ -29,20 +37,28 @@
             border-color: $background-color;
           }
         }
+
       }
 
     .navbar-collapse{
       background: $base-color;
     }
+    @media screen and (min-width: 900px){
+      .navbar-collapse{
+        float: right;
+      }
+    }
 
     .navbar-nav > li > a{
+      font-family: $title-font;
       color: $main-nav-color;
       text-transform: uppercase;
+      text-decoration: none;
       font-size: 1.3rem;
 
       &:hover, &:active{
         color: $main-nav-active-color;
-        text-decoration: none;
+        font-weight: bold;
       }
     }
   }

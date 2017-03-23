@@ -3,13 +3,14 @@
 // -----------------------------------------------------------------------------
 
 .btn{
+  background: linear-gradient(btn-color(top), btn-color(bottom));
+  box-shadow: 1px 1px 1px btn-color(box-shadow);
+  border-radius: 0;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 10px;
-  background: linear-gradient(btn-color(top), btn-color(bottom));
-  border-radius: 0;
-  box-shadow: 1px 1px 1px btn-color(box-shadow);
   text-shadow: 1px 1px 1px btn-color(text-shadow);
-  color: #fff;
+  margin-bottom: 10px;
+  padding: 0.8rem 1.5rem;
   font-size: 1.2rem;
+  color: #fff;
 }

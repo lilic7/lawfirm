@@ -41,6 +41,7 @@ $mid-grey: rgb(153, 153, 153) !default;
 $dark-grey: rgb(68, 68, 68) !default;
 
 
+
 $base-color: rgb(87, 97, 78) !default;
 
 $second-color: rgb(78, 89, 68) !default;
@@ -50,6 +51,8 @@ $background-color: rgb(217, 217, 217) !default;
 $main-nav-color: rgb(184, 198, 172) !default;
 
 $main-nav-active-color: rgb(255, 255, 255) !default;
+
+$slider-bg-color: rgb(233, 233, 233) !default;
 
 $slider-text-color: $second-color;
 
@@ -70,6 +73,23 @@ $btn-color: (
 );
 
 
+$social-sprite: (
+  facebook: 0,
+  twitter: -45px,
+  gplus: -92px,
+  pinterest: -137px
+);
+
+$logo-selector: (
+  small: (name: 'logo-small.png',
+          width: 81px,
+          height: 62px),
+  normal: ( name: 'logo.png',
+            width: 360px,
+            height: 52px)
+);
+
+
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
@@ -78,10 +98,6 @@ $breakpoints: (
   'medium': 768px,
   'large': 1024px,
 ) !default;
-
-
-
-
 
 
 /// Relative or absolute URL where all assets are served from

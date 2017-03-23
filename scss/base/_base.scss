@@ -8,6 +8,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  height: 100%;
 }
 
 /**
@@ -35,4 +36,6 @@ a {
 
 body{
   background-color: $background-color;
+  position: relative;
+  padding-bottom: 110px;
 }

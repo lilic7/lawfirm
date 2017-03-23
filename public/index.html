@@ -8,47 +8,94 @@
     <title>Title</title>
   </head>
   <body>
-    <!--include header-->
+    <div class="header">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header"><a class="navbar-brand" href="#">
+            <!--img.visible-xs.hidden-sm(src=logoSmall alt="Logo")-->
+            <!--img.hidden-xs.visible-sm.visible-lg(src=logo alt="Logo")--></a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav-content"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-content">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">practices</a></li>
+            <li><a href="#">our lawyers</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="container">
-      <!--include ../layout/slider-->
-      <!--.row-->
-      <!--    .col-xs-12-->
-      <!--        h3 The Manes Winchester Promise-->
-      <!--        p This website template has been designed by-->
-      <!--            a(href="#")  Free Website Templates-->
-      <!--            |  for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the-->
-      <!--            a(href="#") Forums-->
-      <!--            | .-->
-      <!---->
-      <!--    .col-xs-12.quote-->
-      <!--        h3 TESTIMONIALS-->
-      <!--        p “Aenean ullamcorper purus vitae nisl tristique sollicitudin. Quisque vestibulum, erat ornare.”-->
-      <!--        p.text-right -John Doe and Jane Doe--->
-      <!--hr-->
-      <!---->
-      <!--h4 WHY CHOOSE US?-->
-      <!--include ../elements/articles-->
-      <!---->
-      <!--hr-->
+      <div class="slider row">
+        <div class="img col-xs-12 col-sm-8 col-sm-push-4"><img src="img/family-large.jpg" alt="Family large"></div>
+        <div class="info col-xs-12 col-sm-4 col-sm-pull-8">
+          <p class="h3">It’s never easy...</p>
+          <p class="h3">When it comes to family.</p>
+          <p class="h4">But we can set everything straight.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <h3>The Manes Winchester Promise</h3>
+          <p>This website template has been designed by<a href="#"> Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the<a href="#">Forums</a>.</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-1 quote">
+          <h3>TESTIMONIALS</h3>
+          <p>“Aenean ullamcorper purus vitae nisl tristique sollicitudin. Quisque vestibulum, erat ornare.”</p>
+          <p class="text-right">-John Doe and Jane Doe-</p>
+        </div>
+      </div>
+      <hr>
+      <h4>WHY CHOOSE US?</h4>
+      <div class="row">
+        <article class="col-xs-12 col-sm-3">
+          <div class="img-container"><img src="img/meeting.jpg"></div>
+          <h3>Our lawyers</h3>
+          <p>Our website templates are created with inspiration, checked for quality  and originality.</p><a class="btn" href="#">read more</a>
+        </article>
+        <article class="col-xs-12 col-sm-3">
+          <div class="img-container"><img src="img/handshake.jpg"></div>
+          <h3>Get to know us more</h3>
+          <p>Just browse through all our Free Website Templates and ﬁnd what you’re looking for.</p><a class="btn" href="#">read more</a>
+        </article>
+        <article class="col-xs-12 col-sm-3">
+          <div class="img-container"><img src="img/smile.jpg"></div>
+          <h3>What we offer</h3>
+          <p>Join the discussion on our forum and meet other people in the community.</p><a class="btn" href="#">read more</a>
+        </article>
+        <article class="col-xs-12 col-sm-3">
+          <div class="img-container"><img src="img/family-small.jpg"></div>
+          <h3>Get in touch with us</h3>
+          <p>And we love the challenge of doing something different and something special.</p><a class="btn" href="#">read more</a>
+        </article>
+      </div>
+      <hr>
       <div class="footer-info row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-4">
           <p class="title">Latest news</p>
           <p>This website template has been designed by Free Website Templates for you, for free. You can replace all this text with your own text. You can remove any link.</p>
         </div>
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-4">
           <p class="title">Contact Us</p>
           <p>ADDRESS: the address city, state 1111</p>
           <p>PHONE: (+20) 000 222 999</p>
           <p>EMAIL: info@freewebsitetemplates.com</p>
         </div>
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-4">
           <p class="title">SEND US A MESSAGE</p>
           <p>If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.</p><a class="btn" href="#">Click to send us an email</a>
         </div>
       </div>
     </div>
     <div class="footer">
-      <div class="container"><a class="facebook" href="#">facebook</a><a class="tweeter" href="#">tweeter</a><a class="googleplus" href="#">googleplus</a><a class="pinterest" href="#">pinterest</a>
+      <div class="container">
+        <div class="row">
+          <div class="social col-xs-12"><a class="facebook" href="#">facebook</a><a class="tweeter" href="#">tweeter</a><a class="gplus" href="#">gplus</a><a class="pinterest" href="#">pinterest</a>
+          </div>
+          <p class="col-xs-12">&copy; COPYRIGHT 2023 MANES WINCHESTER.<br>ALL RIGHTS RESERVED.</p>
+        </div>
       </div>
     </div>
     <script src="assets/jquery/dist/jquery.min.js"></script>

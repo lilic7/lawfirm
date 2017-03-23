@@ -36,3 +36,12 @@
   margin-bottom: 20px;
 }
 
+@mixin logo($size){
+  $logo-data: logo($size);
+  $url: image(map_get($logo-data, name));
+
+  background-image: url($url);
+  background-repeat: no-repeat;
+  width: map_get($logo-data, width);
+  height: map_get($logo-data, height);
+}
